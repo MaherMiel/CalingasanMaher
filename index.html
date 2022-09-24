@@ -1,0 +1,139 @@
+<!---------personal website----------------------------------------------->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Website</title>
+<link rel="stylesheet" type="text/css" href="./style/style.css">
+<script src="https://kit.fontawesome.com/c8e4d183c2.js"
+crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <section>
+    <!---------------------navigations------------------------------------>
+        <nav>
+        <a class="perso">CALINGASAN MAHER</a>
+        <ul>
+        <li><a href="#" class = "active">Home</a></li>
+        <li><a href="#" class = "active">About</a></li>
+        <li><a href="#" class = "active">Contacts</a></li>
+        </ul>
+
+    <!---------------------barrrs---------------------------------->
+        <div class="toggle"></div>
+        </nav> 
+
+    <!-----------------------texts--------------------------------->
+        <div class="text-container">
+        <p>Hello everyone!</p>
+        <p>I'M MAHER,</p>
+        <p>I am a Website Developer <br>& Designer.</p>
+        <button class="hire-bttn">MSG ME</button>
+        <button class="dl-bttn">DOWNLOAD INFO</button>
+        </div>
+
+    <!-----------------------picture------------------------->
+        <img src="./images/models.png" class="pict" alt="pict">
+        
+    </section>
+
+    <!--------------------------about------------------------->
+    <div class="about-container">
+        <img src="./images/pic1.jpg">
+        <div class="about-text">
+        <p>About Me</p>
+        <p>Developer & Designer</p>
+        <p>Hello, My name is Maher Calingasan. I am a Website Developer and also a designer.If you want any projects
+        for your businesss. I will make it as soon as possible until I give you satisfaction results. Also if you want
+        a layout and a website design you can contact me.</p>
+        <p>Hobbies</p>
+        <p>I play basketball with my friends. We play basketball in different barangay basketball courts. Playing basketball makes me happy and I make new friends because of playing basketball. Also I love 
+        to play online games on pc and mobile phones. 
+        </div>
+    </div>
+
+    <!-------------------------serviceEEE------------------------------------------>
+
+    <div class="service">
+    <div class="service-text">
+    <p>SERVICES</p>
+    <p>I hope my service met your expectations and also gives you a satisfactory results. Looking
+    forward to give you again your desiring project.</p>
+    </div>
+
+    <!---------------------------boxes----------------------------------------->
+    <div class="box-container">
+        
+        <div class="box-1">
+        <span>1</span>
+        <p class="heading">Web Designer</p>
+        <p class="details">I can make you a website design that are suitable to your business or 
+        if you have a visualization design for your projects and business.</p>
+        <button>Read More</button>
+        </div>
+
+        <div class="box-2">
+        <span>2</span>
+        <p class="heading">Web Developer</p>
+        <p class="details">I can develop website to layout and its functions. Building a website that helps, maintain,
+        organize, and update informations for your businesses and personal uses.</p>
+        <button>Read More</button>  
+        </div>
+        
+        <div class="box-3">
+        <span>3</span>
+        <p class="heading">SEO Specialist</p>
+        <p class="details">identify strategies,techniques and tactics to increase the number of visitors to a 
+        website and obtain a high-ranking placement in the results page of search engines.</p>
+        <button>Read More</button>
+        </div>
+
+    </div>
+    </div>
+
+    <!--contact meeeeeeeeeeeeeeeeeeeeeee----------------------------->
+    <div class="contact-mee">
+    <p>If you have any projects on your mind</p>
+    <button>MSG ME</button>
+    </div>
+
+    <!-----------------------------footer------------------------>
+    <footer>
+    <p>VISIT MY SOCIAL MEDIA ACCOUNTS</p>
+    <p>THANK YOU AND HAVE A GREAT DAY!</p>
+    
+    <!-------------------social iconssss------------------->
+        <div class="social-icon">
+
+            <a href="https://www.facebook.com/mahermiel.calingasan.21/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/mm_calingasan/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/calingasannnnn"><i class="fab fa-twitter"></i></a>
+            
+         </div>
+    </footer>
+
+    <!------------------social bars iconssssss-------------->
+    <div class="a-social-bar">
+        
+            <a href="https://www.facebook.com/mahermiel.calingasan.21/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/mm_calingasan/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/calingasannnnn"><i class="fab fa-twitter"></i></a>
+
+    </div>
+    <!----------------------------jquery------------------>
+    <script type="text/javascript" src="HTML PROJECTS/JQuery.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+            })
+        })
+        </script>
+</body>
+</html>
